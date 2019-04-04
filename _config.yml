@@ -35,4 +35,5 @@ gems:
 pages_list:       
   About: '/about'
   Archive: '/archive'
+  Resume: '/resume'
   Feed: '/index.html'
