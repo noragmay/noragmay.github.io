@@ -34,10 +34,10 @@ Metis is a 12 week immersive Data Science bootcamp covering topics in statistics
 •	Used non-negative matrix factorization and TF-IDF vectorization to extract topics from musical theater song lyrics.    
 •	Built a Flask web app to display a new song recommendation based topic similarity to a chosen song.    
 •	Performed K-means clustering on Spotify musical data for these songs to further inform recommendations.    
-Will a Television Series be Renewed?    
+**Will a Television Series be Renewed?**    
 •	Using a relational database from IMDb and data from seasons of 100,000 television series, developed a classification method using random forest to predict the likelihood of a television series returning for another season.    
 •	Presented findings using Tableau.    
-Predicting Art Auction Sales    
+**Predicting Art Auction Sales**    
 •	Scraped data such as artist, dimensions, medium, and year for pieces that were sold at auction from the Christie's auction house website using Selenium.   
 •	Used scikit-learn's linear regression tools to predict selling prices for upcoming auctions.   
 
