@@ -4,7 +4,6 @@ title: Resume
 ---
 
 **NORA G. MAY**
-DATA ANALYST, DATA SCIENTIST, and DATA ENTHUSIAST 
 
 
 **CONTACT**   
