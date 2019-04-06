@@ -37,3 +37,6 @@ pages_list:
   Archive: '/archive'
   Resume: '/resume'
   Feed: '/index.html'
+
+include:
+  - "_img"
