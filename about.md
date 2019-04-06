@@ -13,4 +13,4 @@ noramay17@gmail.com
 [LinkedIn](https://www.linkedin.com/in/noragmay/)   
 [GitHub](https://www.github.com/noragmay)    
 
-![Image test]({{ site.url }}/images/NoraA.jpg)
+![Image test]({{ site.url }}/images/NoraA.jpg =100x)
