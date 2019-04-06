@@ -8,7 +8,6 @@ title: Resume
 
 **CONTACT**   
 noramay17@gmail.com      
-(615) 491-1338    
 Brooklyn, NY 11201   
 linkedin.com/in/noragmay/    
 github.com/noragmay    
