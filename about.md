@@ -7,4 +7,10 @@ Nora graduated from Yale University with a B.S. in Chemical Engineering. She has
 
 Thanks for reading!
 
+Contact:
+noramay17@gmail.com
+
+[LinkedIn](https://www.linkedin.com/in/noragmay/)
+[GitHub](https://www.github.com/noragmay) 
+
 <img src="NoraA.jpg" alt="headshot" width="110"/>
