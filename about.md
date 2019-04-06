@@ -7,4 +7,4 @@ Nora graduated from Yale University with a B.S. in Chemical Engineering. She has
 
 Thanks for reading!
 
-<src="NoraA.jpg" width="110" height="165">
+<img src="NoraA.jpg" alt="headshot" width="110"/>
