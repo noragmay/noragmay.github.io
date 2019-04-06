@@ -13,4 +13,4 @@ noramay17@gmail.com
 [LinkedIn](https://www.linkedin.com/in/noragmay/)   
 [GitHub](https://www.github.com/noragmay)    
 
-<img src="noragmay.github.io/NoraA.jpg" alt="headshot" width="110"/>
+![](/NoraA.jpg =100x)
