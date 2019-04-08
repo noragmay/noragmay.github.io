@@ -5,9 +5,9 @@ title: A Data-Driven Historical Analysis of Cosmo
 
 **Using NLP and image processing to analyze trends on *Cosmopolitan Magazine* covers**
 
-Magazine covers have an underrated influence on our culture. Even if you aren’t reading the tabloids or women’s magazines, if I tell you to picture a Cosmo or a People, you can picture the cover and give some examples of the stories they run (“Sexy Hair: Fresh Looks You’ll Adore”). This is because every time you’ve purchased groceries or gotten a snack from the plane, you see magazines. While you wait in line you read the sensationalized headlines and maybe, every once and a while, you even purchase one (just me? Okay.)
+Magazine covers have an underrated influence on our culture. Even if you aren’t reading the tabloids or women’s magazines, if I tell you to picture a *Cosmo* or a *People*, you can picture the cover and give some examples of the stories they run. Every time you’ve purchased groceries or gotten a snack for the plane, you see magazines. While you wait in line you read the sensationalized headlines and maybe, every once and a while, you even purchase one (just me? Okay.)
 
-To try to further understand this potential influencer of our culture, I decided to extract the text from women’s magazine covers, perform NLP topic modeling, and use image processing techniques to understand graphic trends and representation. I wanted to analyze how their intention to appeal to women migrated from this:
+To try to further understand magazines, specifically women's magazines, as a potential influencer of our culture, I decided to extract the text from magazine covers, perform NLP topic modeling, and use image processing techniques to understand graphic trends and representation. I wanted to analyze how their intention to appeal to women migrated from this:
 
 ![Old Covers]({{ site.url }}/images/OldCover.jpg)
 
@@ -27,7 +27,7 @@ Later covers with more sophisticated graphics meant tesseract ocr’s default pr
 
 ![eva]({{ site.url }}/images/eva.png)
 
-However, I used a standard pixel value for all covers as the binarization threshold, I think that this would have a higher retention rate with a dynamic threshold that varied based on the background and text colors, a space for further work.
+However, I used a standard pixel value for all covers as the binarization threshold, I think that this would have a higher retention rate with a dynamic threshold that varied based on the background and text colors: a space for further work.
 
 My last question was “what information can I extract using data science processing techniques that go beyond what I can generalize just looking at some example covers?” Leveraging natural language processing, clustering algorithms, and composite images, the answer was quite a lot. 
 
