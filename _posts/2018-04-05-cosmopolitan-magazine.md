@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Cosmopolitan Magazine: A Data-Driven Historical Analysis
+title: Cosmopolitan Magazine
 ---
 
-**Natural Language Processing and image processing to analyze trends on Cosmopolitan Magazine covers**
+**A Data-Driven Historical Analysis**
+*Natural Language Processing and image processing to analyze trends on Cosmopolitan Magazine covers*
 
 Magazine covers have an underrated influence on our culture. Even if you aren’t reading the tabloids or women’s magazines, if I tell you to picture a Cosmo or a People, you can picture the cover and give some examples of the stories they run (“Sexy Hair: Fresh Looks You’ll Adore”). This is because every time you’ve purchased groceries or gotten a snack from the plane, you see magazines. While you wait in line you read the sensationalized headlines and maybe, every once and a while, you even purchase one (just me? Okay.)
 
