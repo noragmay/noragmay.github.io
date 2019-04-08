@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cosmopolitan Magazine: A Data-Driven Historical Analysis 
+title: Cosmopolitan Magazine : A Data-Driven Historical Analysis 
 ---
 
 **Natural Language Processing and image processing to analyze trends on Cosmopolitan Magazine covers**
