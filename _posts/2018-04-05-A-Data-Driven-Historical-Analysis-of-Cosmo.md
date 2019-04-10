@@ -72,7 +72,7 @@ With the recorded cover text, I performed natural language processing. Using NMF
 
 Surprisingly two out of six topics were associated with literature: fiction and mysteries, which seemed like a large percentage, based on my perception of Cosmo in my lifetime. However, I learned that the magazine serialized novels and short stories up into the 50s, and fiction continued to appear into the 90s.
 
-![fiction]({{ site.url }}/images/fiction.png)
+![fiction]({{ site.url }}/images/books.png)
 
 As you can see on the graph below, which is of the percent of words on the cover in each topic averaged per year. The literature topics continuously decreased during the time period of covers I analyzed.
 
