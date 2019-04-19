@@ -40,3 +40,7 @@ pages_list:
 
 include:
   - "_img"
+
+branches:
+    only:
+    - gh-pages

@@ -7,7 +7,7 @@ title: A Data-Driven Historical Analysis of Cosmo
 
 Magazine covers have an underrated influence on our culture. Even if you don’t read tabloids or women’s magazines, you can picture a Cosmo or People magazine cover and can give examples of the types of stories they run. Every time you’ve purchased groceries or gotten a snack for the plane, you see these magazines and they make an impression. And as you wait in line and read the sensationalized headlines maybe, every once in a while, in a weak moment, you even purchase one (just me? Okay).
 
-To try to further understand magazines’ - specifically women’s magazines' - market appeal and impact as cultural influencers, I decided to use data analytical tools to abstract their content strategy and marketing techniques. I extracted the text from magazine covers, performed NLP topic modeling, and used image processing techniques to understand graphic trends and representation. I wanted to analyze how their intention to appeal to women migrated from this:
+To try to further understand magazines’--specifically women’s magazines'--market appeal and impact as cultural influencers, I decided to use data analytical tools to abstract their content strategy and marketing techniques. I extracted the text from magazine covers, performed NLP topic modeling, and used image processing techniques to understand graphic trends and representation. I wanted to analyze how their intention to appeal to women migrated from this:
 
 ![Old Covers]({{ site.url }}/images/OldCover.jpg)
 
