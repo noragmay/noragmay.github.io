@@ -5,9 +5,9 @@ title: A Data-Driven Historical Analysis of Cosmo
 
 **Using NLP and image processing to analyze trends on *Cosmopolitan Magazine* covers**
 
-Magazine covers have an underrated influence on our culture. Even if you don’t read tabloids or women’s magazines, you can picture a Cosmo or People magazine cover and can give examples of the types of stories they run. Every time you’ve purchased groceries or gotten a snack for the plane, you see these magazines and they make an impression. And as you wait in line and read the sensationalized headlines maybe, every once in a while, in a weak moment, you even purchase one (just me? Okay.)
+Magazine covers have an underrated influence on our culture. Even if you don’t read tabloids or women’s magazines, you can picture a Cosmo or People magazine cover and can give examples of the types of stories they run. Every time you’ve purchased groceries or gotten a snack for the plane, you see these magazines and they make an impression. And as you wait in line and read the sensationalized headlines maybe, every once in a while, in a weak moment, you even purchase one (just me? Okay).
 
-To try to further understand magazines’ market appeal - specifically women’s magazines - cultural influences, I decided to use data analytical tools to abstract their marketing techniques. I extracted the text from magazine covers, performed NLP topic modeling, and used image processing techniques to understand graphic trends and representation. I wanted to analyze how their intention to appeal to women migrated from this:
+To try to further understand magazines’ - specifically women’s magazines' - market appeal and impact as cultural influencers, I decided to use data analytical tools to abstract their content strategy and marketing techniques. I extracted the text from magazine covers, performed NLP topic modeling, and used image processing techniques to understand graphic trends and representation. I wanted to analyze how their intention to appeal to women migrated from this:
 
 ![Old Covers]({{ site.url }}/images/OldCover.jpg)
 
@@ -17,7 +17,7 @@ to this:
 
 I entered into this investigation with a few big questions about methodology. First, does this data source exist? I wasn’t sure if anyone had digitally assembled all the covers of any women’s magazine. Luckily, the academics had me covered. There is a Proquest database called the Women’s Magazine Archive that has covers of various magazines, including Cosmo from 1925-2005. That explains how I landed on this specific publication. I ended up using covers from 1950-2005 from this database and individually searching for and downloading covers for 2006-2019.
 
-My second question was “can I use computer vision techniques to record text off of the .jpg files.” This had a more complicated answer:
+My second question was “can I use computer vision techniques to record text off of the .jpg files?” This had a more complicated answer:
 
 I used Google’s tesseract optical character recognition (OCR) engine, an open source tool trained to recognize and extract text. Tesseract worked well on covers up until the 90s, with a single background color and text color, because the process uses binarization, bringing the pixel values above a threshold to white, and below to black. 
 
@@ -70,11 +70,11 @@ With the recorded cover text, I performed natural language processing. Using NMF
   </tbody>
 </table>
 
-Surprisingly two out of six topics were associated with literature: fiction and mysteries, which seemed like a large percentage, based on my perception of Cosmo in my lifetime. However, I learned that the magazine serialized novels and short stories up into the 50s, and fiction continued to appear into the 90s.
+Surprisingly, two out of six topics were associated with literature: fiction and mysteries, which seemed like a large percentage, based on my perception of Cosmo in my lifetime. However, I learned that the magazine serialized novels and short stories up into the 50s, and fiction continued to appear into the 90s.
 
 ![fiction]({{ site.url }}/images/books.png)
 
-As you can see on the graph below, which is of the percent of words on the cover in each topic averaged per year. The literature topics continuously decreased during the time period of covers I analyzed.
+As you can see on the graph below, which is of the percent of words on the cover in each topic averaged per year, the literature topics continuously decreased during the time period of covers I analyzed.
 
 ![topics]({{ site.url }}/images/topiclines.png)
 
@@ -110,7 +110,7 @@ To understand more about these topics after the era of literature publication, I
     <tr>
     </tr>
       <td>Secrets:</td>
-      <td>abad know secrets surprising couples reveal boyfriend terrace readers believe</td>
+      <td>bad know secrets surprising couples reveal boyfriend terrace readers believe</td>
     </tr>
    	<tr>
       <td>Miscellaneous:</td>
@@ -136,7 +136,7 @@ To understand more about these topics after the era of literature publication, I
 </table>
 
 
-If we look at a percentage of words in each of these topics on covers we can see that the 2000s showed a decrease in the “Relationships,” topic reflecting a societal shift away from defining women via boyfriends and marriage.
+If we look at a percentage of words in each of these topics on covers we can see that the 2000s showed a decrease in the “Relationships” topic reflecting a societal shift away from defining women via boyfriends and marriage.
 
 ![topics]({{ site.url }}/images/relationships.png)
 
@@ -144,7 +144,7 @@ At the same time, the health/beauty and sex categories rose, and we also see an 
 
 ![topics]({{ site.url }}/images/power.png)
 
-Finally, I also did image analysis to further support my textual analysis. Using average pixel images I created a composite cover for each decade, and the 50s and 60s did not have a cohesive style, see the 1962 and 1964 images, besides the Cosmo logo, but when I divided the composite into before and after 1965, I found that I could see a portrait start to appear, shifting to a single “cover girl,” further supporting my findings that Cosmo’s content in the late 60s shifted to focus on the woman as an individual and her particular interests.
+Finally, I also did image analysis to further support my textual analysis. Using average pixel images I created a composite cover for each decade, and the 50s and 60s did not have a cohesive style (see the 1962 and 1964 images) besides the ever-present Cosmo logo. However, when I divided the composite into before and after 1965, I found that I could see a portrait start to appear, shifting to a single “cover girl.” This further supports my findings that Cosmo’s content in the late 60s shifted to focus on the woman as an individual and her particular interests.
 
 ![topics]({{ site.url }}/images/60s.png)
 
